@@ -1,0 +1,424 @@
+/* ==================================================================
+
+*   Khandaker Akash Portfolio Media Queries
+
+TOC : 
+
+1. screenwidth greater than 1400px (Large Screens)
+2. screenwidth greater than 1024px (Medium Screen/Large Tablets)
+3. screenwidth less than 1024px (Medium Screen/Large Tablets)
+4. screenwidth less than 992px (Tablets)
+4. screenwidth less than 960px (Mobile wide/Smaller Tablets)
+5. screenwidth less than 768px (Mobile wide/Smaller Tablets)
+6. screenwidth greater than 480px (Medium Screen Mobile)
+7. screenwidth less than 480px (Small Screen Mobile)
+
+
+/* ================================================================== */
+
+
+
+/* Screens Resolution : 1600px+
+-------------------------------------------------------------------------- */
+@media only screen and (min-width: 1601px) {
+
+  
+}
+/* Screens Resolution : 1400px+
+-------------------------------------------------------------------------- */
+@media only screen and (min-width: 1401px) {
+
+  .about-me .bio-inner {
+    padding: 70px 30px;
+  }
+
+  .about-me .profile-image h1 {
+    font-size: 54px;
+  }
+
+  .about-me .profile-image h2 {
+    font-size: 21px;
+    line-height: 1.8em;
+  }
+
+  
+}
+
+/* Screens Resolution : Below 1366px+
+-------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1365px) {
+  
+
+}
+
+
+/* Screens Resolution : 1024px+
+-------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1024px) {
+
+
+}
+
+/* min-width: 1024px end*/
+
+
+/* screenwidth less than 1024px
+--------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1024px) {
+
+.about-me .profile-image {
+  padding: 40px 20px;
+}
+
+.about-me .bio p {
+  font-size: 1.2rem;
+}
+
+.about-me .bio-inner {
+  padding: 40px 20px;
+  position: absolute;
+}
+
+.education ul li p {
+  padding-left: 50px;
+}
+
+.employment ul li p {
+  padding-right: 50px;
+}
+
+.happy-title h2 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+}
+
+
+/* screenwidth less than 992px (Tablets)
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 991px) {
+  .about-me .bio p {
+    font-size: 1.2rem;
+  }
+
+}
+
+/* screenwidth less than 960px (Mobile wide/Smaller Tablets)
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+.about-me .profile-image h2 {
+  font-size: 54px;
+}
+
+.about-me .profile-image h2 {
+  font-size: 1.2rem;
+  line-height: 1.8em;
+}
+
+.about-me .profile-image h3 {
+  font-size: 14px;
+}
+
+.about-me .bio {
+  padding: 0;
+}
+
+.about-me .bio p {
+  font-size: 1.2rem;
+}
+
+.about-me .bio-inner {
+  height: 100%;
+  min-height: 560px;
+  left: 0;
+  padding: 40px 20px;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.section-title h2 {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+}
+
+
+/* Mobile wide/Smaller Tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+.about-me {
+  padding: 0;
+}
+
+.about-me .profile-image {
+  width: 100%;
+  padding: 20px;
+  min-height: 200px;
+}
+
+.about-me .profile-image h1 {
+  font-size: 32px;
+}
+
+.about-me .profile-image h2 {
+  font-size: 1.2rem;
+  line-height: 1.8em;
+}
+
+.about-me .bio {
+  width: 100%;
+  min-height: 0;
+  padding: 0;
+}
+
+.about-me .bio-inner {
+  min-height: 0;
+  padding: 40px 0;
+}
+
+.about-me .bio h3 {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 10px;
+  text-align: left;
+}
+
+.about-me .bio p {
+  font-size: 1.2rem;
+  padding: 0 10px;
+}
+
+.footer {
+  padding: 20px 10px 20px 30px;
+}
+
+.resume {
+  padding: 20px 0;
+}
+
+.resume .education h2 {
+  margin-left: 15px;
+}
+
+.education ul li h3 {
+  margin-left: 15px; 
+}
+
+.education ul li h4 {
+  margin-left: 15px; 
+}
+
+.resume .education h2, .resume .employment h2 {
+  text-align: left;
+  font-size: 11px;
+}
+
+.education ul li h3, .employment ul li h3 {
+  text-align: left;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.education ul li h4, .employment ul li h4 {
+  text-align: left;
+  font-size: 11px;
+
+}
+
+.education ul li p {
+  padding-left: 15px;
+  text-align: justify;
+}
+
+.education ul li span {
+  margin-left: 10px;
+  text-align: left!important;
+}
+
+.employment ul li p {
+  /*padding-right: 10px;*/
+  text-align: justify;
+}
+
+}
+
+
+/* Medium Screen Mobile
+  -------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 479px) {
+
+.about-me .profile-image {
+  padding: 20px;
+  width: 100%;
+}
+
+.about-me .profile-image h1 {
+  font-size: 38px;
+}
+
+.about-me .profile-image h2 {
+  font-size: 1.0rem;
+  line-height: 1.8em;
+}
+
+.about-me .bio h3 {
+  margin-top: 5px;
+}
+
+.about-me .bio p {
+  font-size: 1.3rem;
+}
+
+
+.resume .education h2 {
+  margin-left: 15px;
+}
+
+.education ul li h3 {
+  margin-left: 15px; 
+}
+
+.education ul li h4 {
+  margin-left: 15px; 
+}
+
+
+
+.resume .education h2, .resume .employment h2 {
+  text-align: left;
+  font-size: 11px;
+}
+
+.education ul li h3, .employment ul li h3 {
+  text-align: left;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.education ul li h4, .employment ul li h4 {
+  text-align: left;
+  font-size: 11px;
+
+}
+
+.education ul li p {
+  padding-left: 15px;
+  text-align: justify;
+}
+
+.education ul li span {
+  margin-left: 10px;
+  text-align: left!important;
+}
+
+.employment ul li p {
+  /*padding-right: 10px;*/
+  text-align: justify;
+}
+
+}
+
+
+/* Small Screen Mobile
+  -------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 320px) {
+
+.pp-container {
+  width: 160px;
+}
+
+.about-me .profile-image h1 {
+  font-size: 32px;
+}
+
+.about-me .profile-image h2 {
+  font-size: 1.0rem;
+  line-height: 1.8em;
+}
+
+.about-me .profile-image a {
+  margin-left: -2px;
+}
+
+.about-me .bio h3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about-me .bio p {
+  font-size: 1.2rem;
+  padding: 0 5px;
+}
+
+.footer a {
+  font-size: 10px;
+}
+
+.resume .education h2 {
+  margin-left: 15px;
+}
+
+.education ul li h3 {
+  margin-left: 15px; 
+}
+
+.education ul li h4 {
+  margin-left: 15px; 
+}
+
+
+
+.resume .education h2, .resume .employment h2 {
+  text-align: left;
+  font-size: 11px;
+}
+
+.education ul li h3, .employment ul li h3 {
+  text-align: left;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.education ul li h4, .employment ul li h4 {
+  text-align: left;
+  font-size: 11px;
+
+}
+
+.education ul li p {
+  padding-left: 15px;
+  text-align: justify;
+}
+
+.education ul li span {
+  margin-left: 10px;
+  text-align: left!important;
+}
+
+.employment ul li p {
+  /*padding-right: 10px;*/
+  text-align: justify;
+}
+
+}
+
+
+/* only for webkit  browsers */
+/* to resolve flickering issue on chrome/safari for fixed background attachment */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  
+}

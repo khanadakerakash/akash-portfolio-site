@@ -1,0 +1,599 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+
+/* -------------------------------- 
+      Basic Style
+-------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+h1
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-fixed-size {
+  width: 164px!important;
+}
+
+/* -------------------------------- 
+      Home Page Style
+-------------------------------- */
+
+.home-page {
+	height: 100vh;
+}
+
+.author-profile-photo {
+	margin-top: -100px!important;
+}
+
+.author-profile-photo img {
+	/*border: 5px solid #2BBBAD;*/
+	border: 5px solid #e8e8e8;
+	box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.1);
+	border-radius: 100%;
+	position: relative;
+	height: auto;
+	margin: 25px auto;
+	/*width: 100%;*/
+	z-index: 2;
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+  	transition: all .3s;
+}
+
+.author-profile-photo img:hover {
+	box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.author-intro {
+	margin-bottom: 20px!important;
+}
+
+.author-intro h1, h5 {
+	line-height: 10px!important;
+}
+
+
+.author-intro h1 {
+	color: #50626C!important;
+	font-size: 24px!important;
+}
+
+.author-intro h5 {
+	color: #50626C!important;
+	font-size: 14px!important;
+}
+
+/* --- main navigation -- */
+
+.main-navigation {
+
+}
+
+
+/* -------------------------------- 
+    	Navigation Pages
+-------------------------------- */
+
+#main-nav-pages {
+
+}
+
+/* --- close button --- */
+.closebt-container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px!important;
+}
+
+.closebt {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor:pointer;
+}
+
+.closebt:hover {
+  transform:rotate(90deg);
+}
+
+/* -------------------------------- 
+      Profile About Me Style
+-------------------------------- */
+.about-me {
+  padding: 0;
+  position: relative;
+}
+
+.about-me .profile-image {
+  min-height: 550px;
+  padding: 60px 30px 40px 30px;
+}
+.pp-container {
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px;
+  width: 150px;
+}
+
+.about-me .profile-image img {
+  border: 5px solid #E8E8E8;
+  border-radius: 100%;
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.1);
+  height: auto;
+  margin: 15px auto;
+  position: relative;
+  /*width: 100%;*/
+  z-index: 2;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;
+}
+
+.about-me .profile-image img:hover {
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-me .profile-image h1 {
+  color: #50626C;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 0.9em;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.about-me .profile-image h1 span {
+  display: block;
+}
+
+
+.about-me .profile-image h2 {
+  color: #4c4c50;
+  display: block;
+  font-family: "Merriweather";
+  font-size: 1.3rem;
+  line-height: 1.8em;
+  margin-top: 10px;
+  padding-top: 10px;
+  position: relative;
+  text-align: left;
+}
+
+.about-me .profile-image h2:before {
+  background: none repeat scroll 0 0 #4c4c50;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 110px;
+}
+
+.about-me .bio {
+  display:block;
+  min-height:550px;
+  margin:0 auto;
+  position:relative;
+  z-index:2;
+}
+
+.about-me .bio-inner {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-top: 33px;
+  padding: 100px 20px 50px 30px;
+  position: absolute;
+}
+
+
+.about-me .bio, .about-me .bio p {
+  color:#555;
+  letter-spacing:.5px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.3;
+  text-align: justify;
+}
+
+.bio-description span {
+	line-height: 1.6;
+  	background-color: #2B2C33;
+  	padding: 4px 6px;
+}
+
+.bio-description span a {
+	color: #FCFCFC;
+}
+
+.section-title h2 {
+  color: #3f3f46;
+  font-family: "Merriweather",serif;
+  font-size: 24px;
+  font-style: italic;
+  margin: 30px auto;
+  padding: 50px 20px 0;
+  position: relative;
+}
+
+.offering-project h3 {
+	color: #3f3f46;
+  font-family: "Merriweather",serif;
+  font-size: 18px!important;
+  line-height: 1.5;
+  position: relative;
+}
+
+.offering-project p {
+  text-align: justify;
+}
+
+.jquery-color-part, .bootstrap-color-part, .materialize-css-part, .laravel-part {
+  padding: 3px;
+  font-weight: 600;
+}
+
+.jquery-color-part {
+  color: #0769AD;
+}
+
+.bootstrap-color-part {
+  color: #563D7C;
+}
+
+.materialize-css-part {
+  color: #EB7077;
+}
+
+.laravel-part {
+  color: #f55247;
+}
+
+
+/* -------------------------------- 
+      Portfolio Style
+-------------------------------- */
+.portfolio-hedings {
+  margin-top: 30px;
+  color: #50626C;
+}
+
+.portfolio-hedings h1{
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.portfolio-hedings p {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.portfolios h5 {
+  line-height: 23px!important;
+}
+
+.card-body p {
+  text-align: justify;
+}
+
+.happy-title h2 {
+  color: #3f3f46;
+  font-family: "Merriweather",serif;
+  font-size: 24px;
+  font-style: italic;
+  margin: 30px auto;
+  padding: 50px 20px 0;
+  position: relative;
+}
+
+
+/* -------------------------------- 
+      Resume Styles
+-------------------------------- */
+.resume {
+  overflow: hidden;
+  padding: 0 0 20px;
+  position: relative;
+}
+
+.resume .education ul, .resume .employment ul {
+  margin: 0;
+  padding: 0;
+}
+
+.resume .education {
+  text-align:right;
+  padding-right:50px
+}
+
+.resume .employment {
+  text-align:left;
+  position:relative;
+  padding-left:50px
+}
+
+.resume .education h2,.resume .employment h2 {
+  color:#3f3f46;
+  font-size:18px;
+  letter-spacing:1px;
+  padding:15px 0;
+  text-transform: uppercase
+}
+
+.education ul li {
+  display:block;
+  margin:20px 0
+}
+
+.employment ul li {
+  display:block;
+  margin:20px 0
+}
+
+.education ul li h3,.employment ul li h3 {
+  color:#636368;
+  font-family:"PT Sans",sans-serif;
+  font-size:18px;
+  font-weight:700;
+  margin:5px 0;
+  padding:5px 0;
+  text-transform: uppercase
+}
+
+.education ul li h4,.employment ul li h4 {
+  color:#3f3f46;
+  font-family:"Merriweather",sans-serif;
+  font-size:14px;
+  padding:5px 0
+}
+
+.education ul li span,.employment ul li span {
+  color:#0ed4c8;
+  display:inline-block;
+  margin:1px 0 10px;
+  font-size:13px
+}
+
+.education ul li p,.employment ul li p {
+  color:#838c95;
+  font-size:14px;
+  line-height:24px;
+  /*padding:5px 0*/
+}
+
+.education ul li p {
+  padding-left:150px
+}
+
+.employment ul li p {
+  padding-right:150px
+}
+
+/* --- Skills Style --- */
+.skill-hedings {
+  padding: 20px;
+  color: #50626C;
+}
+
+.skill-hedings h2{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.skillbar {
+  position:relative;
+  display:block;
+  margin-bottom:15px;
+  width:100%;
+  background:#eee;
+  height:35px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -webkit-transition:0.4s linear;
+  -moz-transition:0.4s linear;
+  -ms-transition:0.4s linear;
+  -o-transition:0.4s linear;
+  transition:0.4s linear;
+  -webkit-transition-property:width, background-color;
+  -moz-transition-property:width, background-color;
+  -ms-transition-property:width, background-color;
+  -o-transition-property:width, background-color;
+  transition-property:width, background-color;
+}
+
+.skillbar-title {
+  position:absolute;
+  top:0;
+  left:0;
+width:110px;
+  font-weight:bold;
+  font-size:13px;
+  color:#ffffff;
+  background:#6adcfa;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:4px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+  display:block;
+  background:rgba(0, 0, 0, 0.1);
+  padding:0 20px;
+  height:35px;
+  line-height:35px;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:3px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+  height:35px;
+  width:0px;
+  background:#6adcfa;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+  position:absolute;
+  right:10px;
+  top:0;
+  font-size:11px;
+  height:35px;
+  line-height:35px;
+  color:#ffffff;
+  color:rgba(0, 0, 0, 0.4);
+}
+
+/* -------------------------------- 
+    Contact Style
+-------------------------------- */
+
+#for-contact {
+  /*background-color: #F6F6F6!important;*/
+  background: url('../img/bg/cbg.jpg') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+}
+
+.section {
+  margin: 65px 0!important;
+}
+
+.section h2 {
+  color: #3f3f46;
+  font-family: "Merriweather",serif;
+  font-size: 24px;
+  position: relative;
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+.contact-icons {
+
+}
+
+.contact-icons li {
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+/* -------------------------------- 
+    Over Div Styles For All page
+-------------------------------- */
+
+.over-div {
+  background:none repeat scroll 0 0 rgba(0,0,0,0.04);
+  bottom:0;
+  position:absolute;
+  right:0;
+  top:0;
+  width:50%
+}
+
+
+/* -------------------------------- 
+    Footer Styles For All page
+-------------------------------- */
+.footer {
+  background:none repeat scroll 0 0 #ebebeb;
+  display:block;
+  min-height:60px;
+  padding:20px 50px;
+}
+
+.footer a {
+  color:#3f3f46;
+  font-size:13px;
+  font-weight:700;
+  padding-right:40px;
+  position:relative;
+  text-decoration:none;
+  text-transform: uppercase
+}
+
+.footer a:after {
+  background: none repeat scroll 0 0 #3f3f46;
+  content: "";
+  height: 10px;
+  margin: -5px 15px 0 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1px;
+}
+
+.footer, .footer p {
+  color:#b1b1b1;
+  font-size:12px;
+  font-weight:400;
+}
+
+.footer p {
+  margin: 0;
+}	
+
+/* -------------------------------- 
+    Preloader Style
+-------------------------------- */
+#preloader{
+  background-color:#101524; 
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index:9999;  
+}
+
+.loader {
+  background: url("../img/lightbox/puff.svg") no-repeat scroll center center rgba(0, 0, 0, 0);
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+
+}
