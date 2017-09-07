@@ -296,7 +296,7 @@ h6 {
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 .portfolios h5 {
@@ -312,9 +312,13 @@ h6 {
   font-family: "Merriweather",serif;
   font-size: 24px;
   font-style: italic;
-  margin: 30px auto;
-  padding: 50px 20px 0;
+  /*margin: 30px auto;*/
+  padding: 20px 20px 0;
   position: relative;
+}
+
+.testimonial {
+  margin-bottom: 90px!important;
 }
 
 
